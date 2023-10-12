@@ -10,15 +10,19 @@ class ScrabbleGame:
         self.players:list[Player] = []
         for _ in range(players_count):
             self.players.append(Player(bag_tiles=self.bag_tiles))
-        
         self.current_player = None
 
+    def playing (self):
+        return True
+
     def next_turn(self):
-  
         if self.current_player is None:
             self.current_player = self.players[0]
         else:
-            #index = index del current player + 1
-            #len(self.players)
-            index = self.players.index(self.current_player) + 1
-            self.current_player = self.players[index]
+            index = self.players.index(self.current_player)
+            if index == len(self.players) - 1:
+               self.current_player = self.players[0]
+            else:
+                self.current_player = self.players[index + 1]
+
+                
