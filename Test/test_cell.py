@@ -14,6 +14,10 @@ class TestCell(unittest.TestCase):
             'letter',
         )
         self.assertIsNone(cell.letter)
+        self.assertEqual(
+            cell.calculate_value(),
+            0,
+        )   
 
     def test_add_letter(self):
         cell = Cell(multiplier=1, multiplier_type='')
@@ -34,6 +38,10 @@ class TestCell(unittest.TestCase):
         cell = Cell(multiplier=1, multiplier_type='letter')
         letter = Tile(letter='p', value=3)
         cell.add_letter(letter=letter)
+        self.assertEqual(
+            cell.calculate_value(),
+            6,
+        )
 
 if __name__ == '__main__':
     unittest.main()
