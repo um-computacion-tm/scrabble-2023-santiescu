@@ -1,5 +1,9 @@
 changelog 
 
+12/10
+
+11/10 change scrabble
+
 10/10 changed models
 
 9/10 Change Cell
