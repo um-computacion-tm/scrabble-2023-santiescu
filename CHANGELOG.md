@@ -1,5 +1,7 @@
 changelog 
 
+13/10 change test dictionary
+
 12/10 change test cell 
 
 11/10 change scrabble
