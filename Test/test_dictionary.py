@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from game.dictionary import (
+from Game.dictionary import (
     validate_word,
     DictionaryConnectionError,
 )
