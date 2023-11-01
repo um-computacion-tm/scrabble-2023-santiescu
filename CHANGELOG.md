@@ -1,5 +1,9 @@
 changelog 
 
+1/11 add scrabble_int; tiles and modified Board, cell, main and player 
+
+18/10 add README
+
 13/10 change test dictionary
 
 12/10 change test cell 
