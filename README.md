@@ -1,3 +1,3 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/c83ce36966a7c4ef9bde/maintainability)](https://codeclimate.com/github/santiescu/clase23-08-2023/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/600356dce122b18e8bb6/maintainability)](https://codeclimate.com/github/um-computacion-tm/scrabble-2023-santiescu/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/c83ce36966a7c4ef9bde/test_coverage)](https://codeclimate.com/github/santiescu/clase23-08-2023/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/600356dce122b18e8bb6/test_coverage)](https://codeclimate.com/github/um-computacion-tm/scrabble-2023-santiescu/test_coverage)
